@@ -1,5 +1,5 @@
 :root {
-    --main-color: #F47B2C;
+    --main-color: #2c43f4;
     --secondary-color: #eee;
 }
 *{
@@ -84,8 +84,9 @@ form input[type="submit"]:hover{
 }
 .fade-in {
     animation-name: slideleft ;
-    animation-duration: 2s;
+    animation-duration: 0.9s;
+    animation-delay: 0.1s ;
 }
 @keyframes slideleft {
-    from{transform: translateX(100px);}
+    from{transform: translateY(-100px);}
 }
